@@ -29,7 +29,7 @@ try:
     clr()
     while True:
         for i in range(1, 5):
-            print(f" ---- [{1}/4] ----")
+            print(f" ---- [{i}/4] ----")
 
             productive_time = 25*60
             send_notif(f"Productive time {format_second(productive_time)}")
